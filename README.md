@@ -1,0 +1,3 @@
+# Node.js Server Hang Issue
+
+This repository demonstrates a common issue in Node.js where a server can hang if a request handler performs a long-running synchronous operation.  The provided `server.js` showcases this problem.  The solution, `serverSolution.js`, illustrates how to avoid the hang by using asynchronous techniques.  This improper handling can lead to unresponsive servers, impacting performance and user experience.
